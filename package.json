@@ -1,0 +1,50 @@
+{
+  "name": "TutyPie",
+  "version": "1.0.0",
+  "description": "Tutor App",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --no-deprecation",
+    "gendocs": "apidoc -i api/controllers -o docs/www/",
+    "test": "mocha api/test/ --no-deprecation"
+  },
+  "keywords": [
+    "Api",
+    "JWT",
+    "Express",
+    "MongoDB"
+  ],
+  "dependencies": {
+    "apidoc": "*",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.16.0",
+    "chai": "*",
+    "chai-http": "*",
+    "cors": "^2.8.1",
+    "distributions-lognormal-cdf": "*",
+    "ejs": "^1.0.0",
+    "express": "^4.14.0",
+    "express-flash": "~0.0.2",
+    "express-validator": "~1.0.1",
+    "faker": "*",
+    "jsbayes": "0.0.5",
+    "jsdoc": "^3.5.3",
+    "jwt-simple": "^0.5.1",
+    "mathjs": "*",
+    "mocha": "*",
+    "moment": "2.x.x",
+    "mongoose": "^4.7.8",
+    "morgan": "^1.7.0",
+    "node-libcurl": "^1.1.0",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+    "request": "*",
+    "synchronize": "*",
+    "winston-timer": "^0.1.0",
+    "xml2js-parser": "*"
+  },
+  "author": "Tarun K. Singhal",
+  "license": ""
+}
