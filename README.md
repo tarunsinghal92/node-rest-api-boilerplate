@@ -1,5 +1,5 @@
-# TutyPie - Tutoring App
-Easy Peasy solution for learners
+# node-rest-api-boilerplate
+node-rest-api-boilerplate
 
 ## Stack
 - Express
